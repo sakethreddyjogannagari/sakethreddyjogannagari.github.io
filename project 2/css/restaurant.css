@@ -1,0 +1,54 @@
+body {
+font-size: 16px;
+font-family: 'Oxygen', sans-serif;
+background-color:#61122f ;
+color: #fff;
+margin: 0; /* Remove default body margin */
+padding: 0; /* Remove default body padding */
+}
+
+#header-nav{  /*Header*/
+background-color: #f6b319;
+border-radius: 0;
+border: 0;
+display: flex; /* Use flex layout to align items horizontally */
+flex-direction: row;
+padding: 10px; /* Add some padding for spacing */
+}
+
+#logo-img{
+    background: url(../images/restaurant-logo_large.png) no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+}
+.navbar-brand h1{   /* Restaurant Name */
+    font-family:'Lora', serif;
+    color:#557c3e;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:.75;
+    
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration:none;
+}
+
+.navbar-brand p{ /* Kosher Name*/
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span { /* Start-k*/
+    font-size: medium;
+    
+}
